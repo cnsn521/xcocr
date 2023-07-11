@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ocrts</class>
+ <widget class="QWidget" name="ocrts">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>翻译</string>
+  </property>
+  <widget class="QPushButton" name="btn_ts">
+   <property name="geometry">
+    <rect>
+     <x>365</x>
+     <y>0</y>
+     <width>28</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ts</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>30</y>
+     <width>801</width>
+     <height>271</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <property name="spacing">
+     <number>14</number>
+    </property>
+    <property name="leftMargin">
+     <number>5</number>
+    </property>
+    <property name="topMargin">
+     <number>5</number>
+    </property>
+    <property name="rightMargin">
+     <number>5</number>
+    </property>
+    <property name="bottomMargin">
+     <number>5</number>
+    </property>
+    <item>
+     <widget class="QTextEdit" name="textEdit_0cr"/>
+    </item>
+    <item>
+     <widget class="QTextEdit" name="textEdit_ts"/>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
